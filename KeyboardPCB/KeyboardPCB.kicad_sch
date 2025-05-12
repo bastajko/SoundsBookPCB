@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "add2f30d-19ed-4f3b-b14c-4e7e4210278a")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "ScottoKeebs:MCU_Arduino_Pro_Micro"
 			(pin_names
