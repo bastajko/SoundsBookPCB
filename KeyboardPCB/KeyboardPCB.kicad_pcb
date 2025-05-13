@@ -406,7 +406,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "0282911d-fd6f-4acb-890c-77f32b69dcbf")
 		(at 247.89 154.425)
@@ -472,7 +472,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "aa1199a8-2966-4249-9946-dbb8594fee41")
+			(uuid "15089820-bead-4d23-9bb0-338ba55d47e6")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -482,7 +482,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9b9d0153-6131-44a2-93ba-cd99e157cf2b")
+			(uuid "1de5b5cc-e90e-4157-a1a3-07459f211088")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -492,7 +492,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9ceca7fc-8126-400c-9e50-4c21fff4b76a")
+			(uuid "da5b8c0b-843c-4de1-930c-d8e0037a8cb8")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -502,7 +502,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7d37e72f-eeeb-4276-b712-991eb3dafb49")
+			(uuid "0348ce78-ca4a-4e44-bccf-d589bc6ec65e")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -512,7 +512,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ed81d9c0-4691-4954-a7a3-47a2a0ea2011")
+			(uuid "c9befddb-4b9b-4999-b709-f0a787ec4cef")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -522,7 +522,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "56e752c8-00ec-4d43-9518-cc6a44f00fa8")
+			(uuid "acda2c67-2dea-43af-bc74-d2ddcd93eacc")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -532,7 +532,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "44cf54f4-393c-4670-8a2d-a762f15fd279")
+			(uuid "9c17123f-d0a3-4d7c-9760-cf812f67bcff")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -542,7 +542,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f22b184b-317a-40cd-8d05-726c790f79cb")
+			(uuid "a75b4333-ffa4-43f6-858b-be2453207a19")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -553,7 +553,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "595bc91a-15ba-4b67-b10b-f8e2c9cde205")
+			(uuid "fb9d29ae-cbe6-4111-8361-0172f037dcb4")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -564,7 +564,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "da1d8215-0544-4ed2-873c-696ec2ec2263")
+			(uuid "2e767b74-44ae-4319-8feb-1d877404eec7")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -575,7 +575,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "345f1ddd-1d36-46da-80bb-0873da1a27cd")
+			(uuid "6d4de54a-d633-4a9a-b73e-708dcac96afd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -608,7 +608,7 @@
 			(net 51 "unconnected-(S21-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "848f3625-eb32-4dca-bb4d-6715181598bb")
+			(uuid "03742e5d-dffe-4aa6-9963-c085764b704f")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -630,7 +630,7 @@
 			(net 25 "Net-(D21-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d2715a69-28e1-4314-b879-bef95780e6c2")
+			(uuid "ad2c2db1-bda5-45b2-bc15-3bd525dc4370")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -644,8 +644,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "05c1bf55-54cc-416d-8966-d9ca77ab0274")
 		(at 264.59 169.975)
@@ -711,7 +722,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "591fc21c-66e4-4712-a45f-181c598b6bb3")
+			(uuid "04bffb18-8c24-4adf-bd2d-4f2b7d5cc5c0")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -721,7 +732,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ad16967b-e26f-4efc-adab-056b926b0922")
+			(uuid "50168582-c445-430c-9441-06f963e90e74")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -731,7 +742,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c035b214-8f97-4632-a5eb-98df11ca49c2")
+			(uuid "fb30f2ae-cc6c-4eb1-83fb-8a635fc78062")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -741,7 +752,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2e2e0f18-498d-4ed6-9dbf-a4864cf9d3d2")
+			(uuid "b394713c-401c-480b-8b4e-9152e6dfe2fa")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -751,7 +762,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d02fd87a-56e5-4194-be15-2454ff2c01ab")
+			(uuid "c42c706c-7170-4cd6-b429-2dbed125dcb0")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -761,7 +772,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f070d5ff-b67a-4e0b-859f-c3377f8ffbff")
+			(uuid "11830104-e413-40d7-9bfb-52c3c2bba3c8")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -771,7 +782,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1327b76f-a9ec-4a36-904f-a0cfc3d989f3")
+			(uuid "60c7d6a3-8932-45f8-889c-e7e0c3ec48c3")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -781,7 +792,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a92baa75-63d9-4816-b6b6-ba403c02ea40")
+			(uuid "cab05964-2d18-490c-92b3-b0e56623bd6c")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -792,7 +803,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "cab9c93f-1742-492b-9891-b570e12dad42")
+			(uuid "b5038cf8-e984-4000-b132-60eee5c70f76")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -803,7 +814,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c342bb84-d798-47dc-80fe-60436053b7c6")
+			(uuid "721493f2-a798-4c6b-aa80-865495442f45")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -814,7 +825,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "50094bfd-2dd6-427c-b2be-aa7072707784")
+			(uuid "5fffe532-f5d8-4857-aabe-1c457580b73b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -847,7 +858,7 @@
 			(net 46 "Column 3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "97ea82c3-fd1f-457b-bcd5-d3980dd3e56f")
+			(uuid "60b2b423-be83-4767-b10b-51d1b3b051f0")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -869,7 +880,7 @@
 			(net 33 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f786a669-973b-4e42-a9b8-fe362ea73c82")
+			(uuid "7d1dada9-3595-4ecb-99f8-28946fd44dcc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -883,8 +894,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "0eeecdc8-27d5-4103-a404-0ed5641a4cb9")
 		(at 264.59 154.425)
@@ -950,7 +972,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "38ea9c01-395e-43f6-a614-3aefceec5968")
+			(uuid "59efa2a1-8a72-41d7-b8ef-334b299d6278")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -960,7 +982,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cf7954c3-505b-4bac-96fe-40b659ad8155")
+			(uuid "fa9ca8bf-f885-45bb-b786-e17efe57833c")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -970,7 +992,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ef9ad49f-8370-4472-a08d-7b9101da69fc")
+			(uuid "0509880d-ec18-4298-bec9-1909787c21b2")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -980,7 +1002,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fa6c93a1-3418-423a-9281-1b740f79ce82")
+			(uuid "142e7107-a65c-4046-a7d5-c373d412ba2f")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -990,7 +1012,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "92288ef7-8778-454d-a305-02be42977e61")
+			(uuid "4cf31b0f-2323-4190-ac74-632a99d4e587")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -1000,7 +1022,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f10accd3-cc3f-481f-9dad-59b2234f21a6")
+			(uuid "716075a5-a498-41c1-a1de-bbf9eccbfa01")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -1010,7 +1032,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3abb7719-fab3-4708-8c5b-00a4d52e3c0d")
+			(uuid "1dfa8b8a-5282-44dc-99b7-e3b8a1fb011d")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -1020,7 +1042,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "af2c60d5-fff6-446f-ba2a-3de501ea7cb7")
+			(uuid "91baf780-b846-41c5-b89e-8046f5577aa9")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -1031,7 +1053,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "aa81211f-e595-4e70-ad3f-1866c4f75797")
+			(uuid "4e688c1f-a0b1-4f47-9622-0f2121b8fcf9")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -1042,7 +1064,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "fb8db089-3705-4faa-bffe-18cd0858f413")
+			(uuid "720193bb-c6a7-4475-b019-0bac5bea9345")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -1053,7 +1075,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "3660d6fd-b229-42eb-8f28-8c6f42a03f71")
+			(uuid "e8560be4-8b05-41ae-b227-3a05ccec5893")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -1086,7 +1108,7 @@
 			(net 52 "unconnected-(S27-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "038c2180-a39f-42a1-b938-f53dbd218bdf")
+			(uuid "650802e7-db8a-434d-b355-1e17dd116234")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -1108,7 +1130,7 @@
 			(net 32 "Net-(D27-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "2ef0c68c-8b06-488e-a7e2-80b2a1b41bc2")
+			(uuid "92ccf059-bd93-4852-9200-84feb2197230")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -1120,6 +1142,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1909,7 +1942,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "158e7b15-644c-4697-8763-00c7ce7b9457")
 		(at 281.29 154.425)
@@ -1975,7 +2008,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "757b5b40-7ab5-4f50-b772-f14d5c251659")
+			(uuid "ee139ce6-b146-481a-9059-5efceba1a7b2")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -1985,7 +2018,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "24d23186-8ed2-4e0b-a8fe-0e91fc757db1")
+			(uuid "efec2245-2c7d-42ec-8f81-7df4ec20fe03")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -1995,7 +2028,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "992782ce-584d-4451-9cd8-19d5af38e906")
+			(uuid "3c879c44-ef43-4df0-88cf-bf7788e5414a")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -2005,7 +2038,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "02f6faba-c4b8-45ee-b719-1b4ff7687be3")
+			(uuid "605e72d8-d128-4b5d-a678-787566547664")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -2015,7 +2048,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "41062e25-97fc-442a-ae61-642e6b64210b")
+			(uuid "5a84b768-d481-42ae-9ca3-ae2bb60fecce")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -2025,7 +2058,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5fb5d999-67ef-4411-99b9-3e74f119994f")
+			(uuid "4f5d1954-a704-4572-af01-1d60d7ad8ae9")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -2035,7 +2068,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e7d2eea8-add6-4816-8dc5-3567d5f8632f")
+			(uuid "8988abb0-e910-41e4-b21a-723d9b596f90")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -2045,7 +2078,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cbf1eeec-aa94-4620-b224-01f27f8c1eb5")
+			(uuid "0bea0ede-4d08-4290-9db1-336b1babfe53")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -2056,7 +2089,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "573e6d33-7071-4763-a435-09b74ecb459a")
+			(uuid "c9a1960e-5ff8-4f59-b362-dd605256a40f")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -2067,7 +2100,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8cb51a69-4fba-4eb4-9dc5-949b69ab57e8")
+			(uuid "7d35d5e3-a366-4055-a511-ebfdd19c376d")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -2078,7 +2111,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "59306373-86f3-4692-8731-0f61f51fd0a5")
+			(uuid "c9ac2df4-99ea-4ec3-8214-dad2bcbb9d74")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -2111,7 +2144,7 @@
 			(net 53 "unconnected-(S33-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3081abb7-269c-4260-89a6-1bbea6d2ca85")
+			(uuid "37738c66-1ccb-43ae-8718-68acf163c6d0")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -2133,7 +2166,7 @@
 			(net 39 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "59d70dde-d483-44e6-b32c-81540fedfe76")
+			(uuid "afb2c0c7-ff6a-4d5f-9587-ef8d0a804319")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -2147,8 +2180,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "19a064fb-9c90-4917-87e9-61127fb9288f")
 		(at 264.59 201.075)
@@ -2214,7 +2258,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8e96cc7f-c131-43d5-bc29-5fae51ca4395")
+			(uuid "e2672a97-64ac-4141-b971-8f3c6a2ab19a")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -2224,7 +2268,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "29a9c52a-e50b-4b4e-94ad-1953e3345662")
+			(uuid "23a13ed2-f647-4af8-9c5a-f5137bf79e94")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -2234,7 +2278,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "504b4ba8-df56-4aa0-a4ee-8b8ceb41681c")
+			(uuid "c6c1692d-354a-433e-a965-a32b706d8da9")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -2244,7 +2288,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0a2fbd0f-1a38-4686-916c-ab97125e7b02")
+			(uuid "c25330cf-a1ea-41af-9e05-ab0e8db5f2d7")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -2254,7 +2298,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "386335d0-b0bf-4950-8e3b-9a60cd222c57")
+			(uuid "e1c5e4d8-6728-477f-b108-b6edee0f03e8")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -2264,7 +2308,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "90f05c68-8dc8-4745-96d9-097ee7ffbaef")
+			(uuid "9f5a5d82-f3e1-4edd-909e-efb7c5a2029a")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -2274,7 +2318,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "460d4c3d-d6c8-49d8-9f6b-eea8bda9035a")
+			(uuid "7edbc764-2e2d-468e-af19-0df97fcf6622")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -2284,7 +2328,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6d07adae-7a60-4fc8-857c-ef1e895ae1b4")
+			(uuid "1dfbd53f-0a3c-4357-9696-9a6e712b1ab9")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -2295,7 +2339,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "2579549b-c767-45da-a013-116471a54903")
+			(uuid "b76c3732-932b-4c89-b8f4-fd67c6a447b2")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -2306,7 +2350,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f9321659-35bb-496d-a776-80b59ac54953")
+			(uuid "2175c7cc-c188-4325-af04-0843edd0befe")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -2317,7 +2361,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f1dd1b18-5cfb-46f2-8974-d19ecd1a52f2")
+			(uuid "acf28334-5589-4f45-9cd0-d2aa6dc44a15")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -2350,7 +2394,7 @@
 			(net 48 "Column 5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ca970347-e93e-4a33-a70c-ef01bb995e44")
+			(uuid "a40422e9-eaa5-42b8-9764-ae7c7c125d1d")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -2372,7 +2416,7 @@
 			(net 35 "Net-(D30-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "69462be7-1618-43c4-a4a7-99c1fb2148da")
+			(uuid "cf821c59-7df0-4186-af71-8164a85067f0")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -2384,6 +2428,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -3959,7 +4014,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "42527a4e-0f61-4e68-b34a-15874140ab94")
 		(at 231.19 169.975)
@@ -4025,7 +4080,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fdb52a1b-0f9b-4053-bda7-dea6c2f5c593")
+			(uuid "f989826f-af67-4303-b7d9-956b8aacae3c")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -4035,7 +4090,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d7cfa70c-ea82-4fb9-bf2d-1f6bc5284011")
+			(uuid "652606fc-f3c5-4b74-b91b-d582c3688e49")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -4045,7 +4100,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "90084261-2e86-4fc6-b3ab-c2db4edee5ba")
+			(uuid "3241173e-56db-40ae-a959-f95a840d1eb2")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -4055,7 +4110,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0a23aff2-d7f1-46ab-abef-9f7b9639e008")
+			(uuid "989950df-86cd-40a0-bee7-ce60221ecf07")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -4065,7 +4120,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "22026203-6ab2-4beb-9baf-fcd56a14e236")
+			(uuid "5d51404e-e2f8-4c7c-a915-e6f3746313d2")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -4075,7 +4130,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "794a7f43-986a-460e-b603-713e8341fc40")
+			(uuid "f8ea9cc5-73bc-425d-ad38-4ffe9314ce78")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -4085,7 +4140,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d11b9d35-be6f-4436-8570-ff7549de1f39")
+			(uuid "82ebc280-1a28-41ac-a81b-b6eaa94f8c49")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -4095,7 +4150,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "38c6962c-f4b1-497f-857f-8b95f26a0ee0")
+			(uuid "3c8d1613-d4f8-475c-a1be-1278d3a34af5")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -4106,7 +4161,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "bd243c05-e77c-4a4b-a392-e131bda426e4")
+			(uuid "60d29877-625c-42cd-931f-478a91e08c4a")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -4117,7 +4172,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b6457f56-2ad9-405b-95bc-26f3084715dc")
+			(uuid "651b415f-7c71-4cd1-b988-dbe0f25de0c0")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -4128,7 +4183,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "94ae0965-43d2-47db-8f5a-ce12286cf1a2")
+			(uuid "1edc12c0-2cab-4c66-8f4c-d695080db6e6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -4161,7 +4216,7 @@
 			(net 46 "Column 3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "bc4cf37c-cbdf-43be-8d74-156b66df0ff5")
+			(uuid "70a9a4c1-250b-4ce8-965b-bf30c2991d16")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -4183,7 +4238,7 @@
 			(net 19 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1f2130f1-a001-48cf-abbf-2ba39fa7800f")
+			(uuid "01811d62-2da3-497a-97bc-526f7b20aac0")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -4195,6 +4250,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4460,7 +4526,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "4e76eaa6-3d71-4e23-b217-22c9e22ea57a")
 		(at 264.59 123.325)
@@ -4526,7 +4592,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e9c5701e-8c3a-4b62-91dd-0b9f67249e44")
+			(uuid "b9248d73-c3f7-451d-b0ef-901ada709c23")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -4536,7 +4602,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "77e73d14-4c2f-436a-97a4-007b6abed76e")
+			(uuid "ed2d6aac-08e0-4c9d-b1c0-e527c497174b")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -4546,7 +4612,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "27c5227a-7b62-4bbb-9152-86c9795452b6")
+			(uuid "01316d6e-bcc5-4afc-a2e4-59bd3789a4d1")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -4556,7 +4622,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d1ed4b2b-fe7b-41c0-a351-8fba307e7988")
+			(uuid "a94fcd00-3fb0-459c-916c-dd09b60a02f3")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -4566,7 +4632,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0f609feb-9997-4265-8fdf-9c1b45f3f2ef")
+			(uuid "d1645f6c-3bfd-442a-a39f-9717dcaa8259")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -4576,7 +4642,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "977622af-58a2-44e5-bf55-92c6828527b3")
+			(uuid "0aec5962-a210-4b83-8a68-134074710321")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -4586,7 +4652,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fce14cb7-b393-4472-8e53-64b07dbc00eb")
+			(uuid "56308441-dd28-47ff-a5bc-f792e57157ba")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -4596,7 +4662,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "29a799ba-cea6-4c75-9906-6a2b375e015b")
+			(uuid "cf71cd7f-180d-434c-8581-27513180b25d")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -4607,7 +4673,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "4020db98-48e6-491f-9bfb-5a67a0e810be")
+			(uuid "7a4c1dc8-0cc6-42ae-8a31-aa759dbb1f7b")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -4618,7 +4684,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f9948002-e4b7-4bcb-b483-f318029e934d")
+			(uuid "991c12ac-bbbd-4176-9c5a-5fae2728fb82")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -4629,7 +4695,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e7d71911-9a57-435e-8435-b3abca3e5983")
+			(uuid "f725a13c-4cc7-42c9-81bf-1f559fb1620a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -4662,7 +4728,7 @@
 			(net 43 "Column 0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a7fe56b2-8b38-46dd-93a0-340b1f761dab")
+			(uuid "254e9f71-071c-443e-b356-5e2df8cf7aab")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -4684,7 +4750,7 @@
 			(net 29 "Net-(D25-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "74aa8072-05d7-4683-b14e-52753bcbeef6")
+			(uuid "08acde41-d1a7-46c1-9ca8-2edb42fc89be")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -4696,6 +4762,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -4961,7 +5038,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "56034789-c978-4abe-a245-1c90430743c5")
 		(at 264.59 185.525)
@@ -5027,7 +5104,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5894e24a-4666-4fcd-9fb2-14739e491073")
+			(uuid "7563ec0b-6ecf-4d3e-a8a6-c1c552c5b7d7")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -5037,7 +5114,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "434ca839-df86-4feb-823c-0344dca68a74")
+			(uuid "a9aa0808-b9c3-44e7-8818-4ebfee8d25d0")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -5047,7 +5124,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3e12606c-ff2d-4250-9244-fdb592b7b502")
+			(uuid "6ecabf11-00a5-4ef4-a553-a80c1678f048")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -5057,7 +5134,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6453cbc0-1a92-46e3-afa9-e94234516069")
+			(uuid "a8a3c5b5-83dd-498e-9dd4-ebf674a77459")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -5067,7 +5144,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0b945a5d-a1d1-4764-94a2-bb273016eb50")
+			(uuid "fd58dcc3-4bc4-45f6-8ed4-0c721969a175")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -5077,7 +5154,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "bd71557d-2e99-4375-96c6-5672a6481f71")
+			(uuid "f150688a-6f59-4178-9ecd-6ca1235e44ed")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -5087,7 +5164,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3fc880e8-66a5-49f6-ab66-8fa54f24ac43")
+			(uuid "5a54e9a3-460d-4686-8111-81142277fc46")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -5097,7 +5174,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2a1478c3-bfd7-411a-b67c-82111509b654")
+			(uuid "bafeec98-4798-445d-8a90-0aa8d3444d99")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -5108,7 +5185,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "961a8f1e-56bd-4a32-a736-d4e2d013924c")
+			(uuid "87ac8d55-c424-4724-8e8b-ee22622ac172")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -5119,7 +5196,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8636aac1-44b5-409c-9093-807178660e90")
+			(uuid "ff0100f9-bfb6-48a3-88e7-a95e25b4ca58")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -5130,7 +5207,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d081098c-bb75-438d-bd2b-84d50c714a15")
+			(uuid "bf361b00-1238-4b09-b684-29edd6cc0664")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -5163,7 +5240,7 @@
 			(net 47 "Column 4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ce57833b-1133-4f4a-94f9-28b0aa333d4c")
+			(uuid "e70c8bac-0117-42ed-8431-db2da96e2932")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -5185,7 +5262,7 @@
 			(net 34 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d5629a4b-e877-46e3-890b-0939f745e0d9")
+			(uuid "167063c2-fce9-4723-ab33-eb9cc1f3c576")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -5199,8 +5276,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "5b572bb9-160a-4124-b900-0f14adddd8fa")
 		(at 247.89 123.325)
@@ -5266,7 +5354,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4dbb0fbb-ef1a-4722-8c36-01a440228a79")
+			(uuid "ae865464-3f28-40da-908e-fceea5425ce6")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -5276,7 +5364,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e2c351b0-d901-445b-99d5-ce883fa26c02")
+			(uuid "a5054aab-ae74-42da-8d72-7b432abc144e")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -5286,7 +5374,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "67f979d8-9c2b-4ee6-88f8-8e0716b690a1")
+			(uuid "de323470-8f72-4722-8527-1e17bcf82230")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -5296,7 +5384,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "55604fdb-9524-4712-9804-b33ccb87ec9d")
+			(uuid "663793bd-1e9c-4be8-a07d-44aa818b0734")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -5306,7 +5394,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f707ea8e-a706-44be-bd5d-cf8946676aff")
+			(uuid "f01b6d90-a299-42ea-8250-ac82c385b4e6")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -5316,7 +5404,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8da8b8ff-502b-4d3f-8458-ca2b3ad3052c")
+			(uuid "58140f17-0c59-49a7-b7b5-49539024478e")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -5326,7 +5414,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cd615b8f-99a5-4b8a-968e-9cac2ab5c013")
+			(uuid "e06d0970-3e5c-466a-9ded-5b22ec584e47")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -5336,7 +5424,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "50a0b0d5-5a07-4862-a076-cf3531cbc50b")
+			(uuid "591f8f11-ae46-4bfe-97c6-f94332f49d91")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -5347,7 +5435,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "2cfd9668-e4ca-44fd-b10f-647e993ca003")
+			(uuid "fd3d9e6c-89ea-441c-95c9-5e8498b73720")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -5358,7 +5446,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d859d9fd-581c-4ec4-9152-e2d43c42aae2")
+			(uuid "8319d9b7-1c4c-47cd-bd70-074f15d3b560")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -5369,7 +5457,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "cb789c4c-f18f-4421-bff2-420996903b8b")
+			(uuid "57ef90ab-9af2-4ba1-8801-dc3b91c9eeeb")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -5402,7 +5490,7 @@
 			(net 43 "Column 0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "73f8c39b-48e1-439d-8d81-9d5a30c58f3f")
+			(uuid "7087272c-2fc9-432c-b038-2c9317c43435")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -5424,7 +5512,7 @@
 			(net 23 "Net-(D19-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0c88bc11-f278-4306-bcec-3f0f6634700d")
+			(uuid "d16300f9-f6d6-4a44-816f-40a8f62e950d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -5438,8 +5526,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "5e4794a1-abfa-4160-b669-57f61d8e8c24")
 		(at 281.29 185.525)
@@ -5505,7 +5604,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "99274644-78f8-43f7-aa41-54da7ffcd876")
+			(uuid "dfbdad99-62f5-4975-bb6b-f595024bdba7")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -5515,7 +5614,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e3e2c1ab-ccbd-41f3-9eb4-729046bcef39")
+			(uuid "fe977bc3-3ee8-4f18-836a-d592618626ec")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -5525,7 +5624,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "adf14e45-23d3-4b6d-96db-e88773f71d8d")
+			(uuid "b8db91dc-112a-4f70-a721-1d06b6b71320")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -5535,7 +5634,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "265bb490-6c9f-4a7d-89b9-d4778d344c17")
+			(uuid "77d70cd0-f753-4c14-b615-08b8598abe45")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -5545,7 +5644,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "faa8340d-28db-4f88-a18b-212a4c5f8b95")
+			(uuid "d3cc9738-d2f6-4122-853d-d12e8432e064")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -5555,7 +5654,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3b0758ac-37f8-4402-bb92-0db501200b6d")
+			(uuid "fa47d727-f799-4e25-8310-c69be68263f1")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -5565,7 +5664,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1fe77cf9-1cd1-4794-a8cb-a3952c1f2a91")
+			(uuid "1bad5cc3-4535-452e-9cc3-220227edf05c")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -5575,7 +5674,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2644d2ff-b512-476c-9eb1-102780f8d562")
+			(uuid "d776c928-895e-4f11-a970-c759a7cda700")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -5586,7 +5685,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "3fbcb46c-43b5-4545-88b7-7d67ccbf1671")
+			(uuid "352d1401-8cb1-4d75-8af4-6259123ccf94")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -5597,7 +5696,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "2ab902f3-489e-4303-aeff-7e3c06c6f578")
+			(uuid "a91e135b-a6b1-4574-9b66-74ba3bcdb849")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -5608,7 +5707,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "ae168269-6498-43cb-976b-b244106bb6c9")
+			(uuid "616e408c-337f-4184-8ba5-5436926dc7c6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -5641,7 +5740,7 @@
 			(net 47 "Column 4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6ddde11b-774e-4cfe-bf2b-f5f6c573ab39")
+			(uuid "28038ea6-5f5d-43fc-883a-4a31c42cc580")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -5663,7 +5762,7 @@
 			(net 41 "Net-(D35-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "09b2726a-5290-4096-b25d-fa58f883c7d5")
+			(uuid "ad54665a-caa2-4e55-b62b-d9034dc17a58")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -5675,6 +5774,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5940,7 +6050,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "6a06b0cb-eac1-48d3-9eb9-b4db38375ee6")
 		(at 202.5 86)
@@ -6006,7 +6116,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "90018ccb-0f72-455c-9965-cbe4e66f0873")
+			(uuid "e75fa08e-ff1e-4de9-8c32-bbed34ef13e5")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -6016,7 +6126,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "89b5f0b5-18ea-4807-9f5d-df0f531547d6")
+			(uuid "8bb4c2ae-7fc0-480d-806c-03ab059f5c55")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -6026,7 +6136,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "64d18c92-fe08-437c-8ff1-19832ff305a3")
+			(uuid "d900fec0-1061-405f-a37f-89335f8ecbb1")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -6036,7 +6146,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "53ce40df-491b-47ea-b70c-950d1fbf05db")
+			(uuid "3d5cdc35-9ae1-4ab3-8570-5ac43a0f155f")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -6046,7 +6156,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a1a48015-deb8-4223-b879-2d00c27f12ba")
+			(uuid "2f89872c-2462-4c74-a5f3-38be6bd4d4e3")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -6056,7 +6166,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0a4e7afb-a91b-41b3-938a-81fb24d76512")
+			(uuid "34027148-4819-4baa-8112-12422f2d01f1")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -6066,7 +6176,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f3e24681-d00d-4f60-bf89-c32a3bd553a0")
+			(uuid "7cb6701c-5911-4e66-98c9-0d4274b534f9")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -6076,7 +6186,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4fbc280e-7d86-4f8d-a605-2d85b878c64b")
+			(uuid "1d5af808-ab86-4794-bd96-240302820389")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -6087,7 +6197,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "7c69b6c2-649a-45d5-bfd8-386ca9abbe6e")
+			(uuid "03760f10-9a83-4804-8c4c-5fe0f2dbb8c4")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -6098,7 +6208,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1957fdc4-0538-4ad8-a504-0cee5d87a6eb")
+			(uuid "c509269a-b343-4a70-991e-8938b930f3fd")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -6109,7 +6219,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "ced2d159-2ef6-473f-8090-09c48b7639a8")
+			(uuid "586f8b41-5a04-489c-ae18-ba1b703118c5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -6142,7 +6252,7 @@
 			(net 47 "Column 4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "03295e57-f972-4dec-8335-90687ef48d3f")
+			(uuid "ebd3c1ca-ea99-4a92-9a23-bc87ba3eee5d")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -6164,7 +6274,7 @@
 			(net 6 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9ecfd7aa-377e-4533-8399-5b6580b2d16e")
+			(uuid "fed186c3-5cdf-4f99-99af-2e353b7852e2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -6178,8 +6288,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "6dec812d-2053-4284-a9ee-5271346f5a46")
 		(at 231.19 185.525)
@@ -6245,7 +6366,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d21c2b9f-4206-4f81-bd45-943d01b619e9")
+			(uuid "c409fb55-d02e-4611-9200-f7467e119ffd")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -6255,7 +6376,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2f7250ff-57f6-48e1-ae01-dea0446f2075")
+			(uuid "44c552b1-8101-4a9b-8f33-f1d20c8f9298")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -6265,7 +6386,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3a385cf3-4625-4ce8-b3ed-f7cf938f295b")
+			(uuid "ef78d478-1942-42d2-bbd1-7d67bcfd24e4")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -6275,7 +6396,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a40954b6-dfdf-4478-8f04-dae47f5edaa6")
+			(uuid "8345549f-592b-4fe3-9d32-c08042e76d7d")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -6285,7 +6406,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7393368c-241c-4d4c-9caf-54832a910cd0")
+			(uuid "ab8655ce-9064-4f77-8b5b-81de189fdcb9")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -6295,7 +6416,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ab0bfd0a-74e0-4971-b917-a5691667852e")
+			(uuid "676af060-fb46-4580-b22c-a5b23148d0d8")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -6305,7 +6426,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2d2f495b-3101-4a45-8a3a-b5d7797e2b5d")
+			(uuid "e0209c65-c881-49d9-acc1-3e3f78c7fd15")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -6315,7 +6436,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "00b2cddb-9173-4a2e-a5b6-1a4e76e21a12")
+			(uuid "d32c7669-68f1-432b-8ffc-473905e82185")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -6326,7 +6447,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "be517f93-802c-45be-8d6d-23bec46e87ac")
+			(uuid "f37d567d-7088-413b-966f-ae5358fcf598")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -6337,7 +6458,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "79b8df6c-c596-4db0-80df-39ca5403ea31")
+			(uuid "d52581d4-cf81-441b-a916-6c045f65de90")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -6348,7 +6469,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1d69cf04-15c8-4d31-840f-c206fe572d5c")
+			(uuid "483871b4-4764-4443-837f-d527d552d63b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -6381,7 +6502,7 @@
 			(net 47 "Column 4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f1b0b3dd-aaf4-4728-8a27-543965b247c3")
+			(uuid "39263c58-3bd0-41c2-8a0c-acf424a241f5")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -6403,7 +6524,7 @@
 			(net 20 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "473a03c0-44c4-4e47-b4a5-3629b96b3603")
+			(uuid "99d5723d-7027-4048-afcf-9b33ad84f86d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -6415,6 +6536,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -6680,7 +6812,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "6f1aed2c-084a-4e33-9181-e09a9466f4e7")
 		(at 231.19 138.875)
@@ -6746,7 +6878,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "316b698d-0c5f-494e-af6f-33d0f78b0c60")
+			(uuid "154d4c3b-43ac-4a75-b771-edafec6ce1c4")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -6756,7 +6888,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3c692805-ab4e-4bed-9d65-2df466c262ff")
+			(uuid "b816478b-5cd6-4bf9-8214-af580f827a4e")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -6766,7 +6898,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "95fcd183-102f-4ef4-8eb7-436f997222f4")
+			(uuid "bec595ba-9395-45da-b73f-023c65201bee")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -6776,7 +6908,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fbe0fa87-505c-4b88-a565-5831b00d5047")
+			(uuid "b3dc4493-c5b2-471c-a95f-db7d1b147d88")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -6786,7 +6918,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "317aab94-1a6d-4544-866e-6854bf612504")
+			(uuid "12766d42-7cf3-41fb-95c6-2fea9a4c9b8f")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -6796,7 +6928,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "405720d9-0594-4251-9003-5a77f9e39088")
+			(uuid "cc087bd1-2b54-42f8-8106-4ee74e14e466")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -6806,7 +6938,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4e1ea88f-e798-49dc-9397-e3fc8b1054dd")
+			(uuid "4ffc1a4f-67e9-4140-87e4-43471d8f63a8")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -6816,7 +6948,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "54c76c58-cf0b-41d2-a8ef-f51ac8656e7c")
+			(uuid "6ae65806-bc4a-4e45-907b-116584ae6815")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -6827,7 +6959,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "dfc7f798-33b4-480d-9bc8-def6d581de14")
+			(uuid "b9f900e4-3357-496d-8095-034825c9b1cb")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -6838,7 +6970,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f9b877f0-b465-4484-82df-76966a735dda")
+			(uuid "6f90bab9-f3ab-4435-97a5-c91c6a9d6b50")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -6849,7 +6981,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b1074a47-812d-4907-97ce-afd5d60650cd")
+			(uuid "b124dbc8-e13d-4f20-a744-17e367bdae23")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -6882,7 +7014,7 @@
 			(net 44 "Column 1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "47408c9d-0532-40a3-8abd-067921cacdc9")
+			(uuid "09cc003f-2831-4a9d-8e55-4a1dc79a7280")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -6904,7 +7036,7 @@
 			(net 17 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4b3e706b-097c-4284-9fe0-f38c67620588")
+			(uuid "f1c418c1-02fd-4ce7-9577-066e417d9377")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -6916,6 +7048,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -7705,7 +7848,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "746c2aba-acf9-4982-8065-c6f254a03cd4")
 		(at 162.5 86)
@@ -7771,7 +7914,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "769975d7-79e4-40f0-9955-39f68ff0cb2f")
+			(uuid "6bc92e0b-cea1-4927-9ff7-330ad445f71a")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -7781,7 +7924,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "44856916-7b53-4e12-92b6-e0c765306560")
+			(uuid "df8812bb-d97c-432f-95ed-bb2bb999dc43")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -7791,7 +7934,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "129d6e30-42f2-42e4-93e7-438c1038b65b")
+			(uuid "ad87b4eb-1533-482a-b011-683d547bf157")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -7801,7 +7944,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1d053517-6ddd-4c87-b492-cab1dd76cc05")
+			(uuid "143dbbee-3e70-4156-8f5d-088e9e1d2de4")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -7811,7 +7954,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9e2467d7-3948-468d-bad5-e79557b3a86b")
+			(uuid "00bc153d-ec02-4571-a189-75d98b317052")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -7821,7 +7964,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f6fc1e93-7104-449d-bd98-ffd88d1f42a7")
+			(uuid "97f299a8-ffab-4960-9d50-285f4c27f899")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -7831,7 +7974,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ea220c45-f8c1-43aa-8162-44c27bd3ea7d")
+			(uuid "b143af17-d5b8-44e8-afcb-4fa1664e0db7")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -7841,7 +7984,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ef8e3bed-9fd6-4e98-90e3-23b77cca0da3")
+			(uuid "129cd7c7-7c70-4ff3-ac69-f53b5e55dd9f")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -7852,7 +7995,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "86e71915-6bd0-425f-8936-a5e89a0415b8")
+			(uuid "1f2a8c39-5dd9-4165-aaf5-2d0c0915de68")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -7863,7 +8006,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "9a827cc9-738d-4443-a8e4-d2789302d363")
+			(uuid "53e0d17a-7ed9-4c68-9413-fc434e425054")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -7874,7 +8017,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0b802b29-50bf-4a25-b1a2-b23da07219ef")
+			(uuid "fd7bd158-b9c0-4d76-b655-19f17b8dec60")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -7907,7 +8050,7 @@
 			(net 45 "Column 2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "120f6ad1-b9f5-43b6-8850-7cc05bc4d550")
+			(uuid "c5dbeaaa-e6a8-452e-807b-c5d561d4a31b")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -7929,7 +8072,7 @@
 			(net 4 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "2f0f1b62-ff59-4f4d-b473-740df8890e01")
+			(uuid "58399cf0-db23-4cd1-be2d-1ce0927e6f79")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -7943,8 +8086,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "75430ebd-eafc-4cf4-a846-e88b0f0f6146")
 		(at 222.5 86)
@@ -8010,7 +8164,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "608e14fc-c9f2-40d1-b908-75f055c3bfc9")
+			(uuid "3d7d863c-c56c-4c28-b48f-b9cbd9f85c08")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -8020,7 +8174,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3b2bde42-abed-464f-a210-845c26d8d03e")
+			(uuid "654aa4a8-c6cf-4f02-87f5-1c369a700299")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -8030,7 +8184,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8c60e8ea-f875-4662-b33f-450f95e15721")
+			(uuid "cb41c01e-bf56-4210-ae95-05cfa28778bc")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -8040,7 +8194,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "adcd5b6b-3cf8-4000-831d-e6e1ac17dbe1")
+			(uuid "4af16e67-2701-41db-a7bb-9d09974510bd")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -8050,7 +8204,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9eb23655-63b3-4039-952d-a6552ab4d85a")
+			(uuid "ca03f604-cf3f-49a1-85af-efa215815bd5")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -8060,7 +8214,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "28fe1217-b022-4e66-8172-b75f22c70bb6")
+			(uuid "c7b7ecdb-5a43-4e1a-82e0-b00d5e11cc09")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -8070,7 +8224,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c12908e6-9df8-4bd8-b2e2-be28f6951b09")
+			(uuid "271f53e2-7da0-4f00-b2d3-68d1a26ff214")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -8080,7 +8234,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "208e7146-6db5-4a2c-b0d3-3e1016b360ba")
+			(uuid "4b0f05a7-5700-4235-90a2-2d84b0c63787")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -8091,7 +8245,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "d934c03d-a167-4830-955b-9469c1bcfd2b")
+			(uuid "fb548be9-78ee-4856-8a65-afaf21becbcb")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -8102,7 +8256,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "08d15c5c-409c-4fb0-8846-77cc9c5561f6")
+			(uuid "2e4f26f7-823e-4200-90a7-1241873b7347")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -8113,7 +8267,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "6f81edf4-5068-4023-8cb2-c7453c8403a8")
+			(uuid "fa43e09f-e646-405f-8f73-07380bac41f8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -8146,7 +8300,7 @@
 			(net 48 "Column 5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8d7bf911-eaba-455f-9c33-dbfe47e7ccd5")
+			(uuid "7a614eb0-7b37-40ab-af15-605894c6ff89")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -8168,7 +8322,7 @@
 			(net 7 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1b416e15-cdf3-409f-81cb-c9cfc736ed50")
+			(uuid "18c0f4a0-5dc4-40cf-acac-169c6857961c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -8182,8 +8336,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "762bf77b-b30f-45f3-aef5-1f099c7203b7")
 		(at 214.49 138.875)
@@ -8249,7 +8414,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a8917afb-a76b-4ac6-ab09-2824ec73fe65")
+			(uuid "2e61b5db-19f8-4451-bf2e-3180622e922c")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -8259,7 +8424,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cbb2fe9c-8a0e-413e-8d9f-9ac19e650a0c")
+			(uuid "77299d6c-4f7a-4566-97b0-c5d3e24ac1cd")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -8269,7 +8434,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "886fa8b0-91eb-4e4c-bd9e-3b0ada6474e2")
+			(uuid "6ad582e7-729c-4a8a-b4fd-47169cf1c4af")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -8279,7 +8444,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f6a4756b-3822-4ee8-98da-e326cbb35437")
+			(uuid "61fc7edf-f85f-47ae-8976-5f89c47d9282")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -8289,7 +8454,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "06b8d8a4-01fd-4ef2-aecd-82eacdb5508f")
+			(uuid "2249db6b-0f39-4aae-8195-8cff311e9046")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -8299,7 +8464,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7738534c-079d-45f2-bdbe-6df5cc966fd3")
+			(uuid "8348f6c6-6763-491d-aa73-e55be2fc649e")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -8309,7 +8474,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e9225909-2d5c-4d85-be07-b18c52aedb36")
+			(uuid "dc6adf4c-8c12-4935-8f49-81f95c11c1fa")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -8319,7 +8484,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "10c0ee3a-719d-4e1e-a768-9780ed3ab731")
+			(uuid "3f47b7f8-76d0-4aba-9d6a-e4d4e17a1905")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -8330,7 +8495,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "a60ad2de-8ff5-4943-b44d-7a186e6cfbe1")
+			(uuid "9659ad0b-c276-4d70-bcc7-d9014f60f971")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -8341,7 +8506,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "9c32b3b2-e7cc-4f29-a435-dffde0982e4a")
+			(uuid "fd6f062e-0eda-47b1-a02e-b4b229130900")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -8352,7 +8517,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c12a93a4-d037-4d9e-8ee9-094d3694e656")
+			(uuid "cee1cd5f-d442-480c-a607-b70781468217")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -8385,7 +8550,7 @@
 			(net 44 "Column 1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f75d9c95-7a82-4c38-bc64-f863bdc2b607")
+			(uuid "a6e84faa-3b2e-44f9-9417-190a87f82505")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -8407,7 +8572,7 @@
 			(net 10 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "bb5bb932-0673-4e5a-a8ba-20c5a9881351")
+			(uuid "33c6c0ed-38c8-4020-abd6-2ecaffdc12d0")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -8419,6 +8584,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -8684,7 +8860,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "7ee6bc5b-5eb9-4b42-8321-5e59766ea716")
 		(at 142.5 86)
@@ -8750,7 +8926,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "896bb2db-63a8-4746-b672-aadcf240b1f5")
+			(uuid "70ddb847-2176-413c-bff9-a8303cbdce33")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -8760,7 +8936,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "69544722-0dfd-43a0-be83-fb0384fcde29")
+			(uuid "e2e31373-2789-4cd9-a914-ad0393908eb5")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -8770,7 +8946,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ccd821dc-150c-4474-a237-45b4ffc647ac")
+			(uuid "e5e68351-4f3e-4cec-b489-3eef8f435dfd")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -8780,7 +8956,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8965b7df-7281-4478-940c-c2d146b7a0fa")
+			(uuid "6babc6ca-5a8d-46c8-acd3-3125fcd39963")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -8790,7 +8966,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a327cf9e-a603-4e72-b0bd-7619d6fed6fe")
+			(uuid "ed464c58-cb8a-44a7-9167-48f83b697391")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -8800,7 +8976,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6226ab15-265b-4e12-b8f9-dd0a756c85bd")
+			(uuid "88aa23ec-b69e-4789-853d-efd284f3fb50")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -8810,7 +8986,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "835d0a5f-c565-4310-836a-e78fef3f4679")
+			(uuid "63eb33ba-78f6-47e6-b666-46c1e8d84122")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -8820,7 +8996,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "807b82f1-6db1-40a5-9703-c2d83d1201c7")
+			(uuid "b99017cc-d50b-41db-8437-2c93dfccf667")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -8831,7 +9007,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "6695a69b-d097-4fcb-bd09-9302a55d7198")
+			(uuid "c228bdf0-0328-4562-92f5-6a623c573b54")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -8842,7 +9018,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1fb2edd1-00e3-437b-94dc-ea3f22f72e29")
+			(uuid "3d728fb8-9fbe-4283-adc7-dc354ba812b1")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -8853,7 +9029,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "5144e93b-e444-44d2-a4b0-7b17f69a7e08")
+			(uuid "d6ecaee3-4ac8-40f0-b034-41824bd957ce")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -8886,7 +9062,7 @@
 			(net 44 "Column 1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b782882d-386a-4a4c-99dc-274ded64369e")
+			(uuid "a1c90645-6b3c-4a46-b7a6-aa2470a7a675")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -8908,7 +9084,7 @@
 			(net 3 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "427c3910-354c-40b4-9ac3-98df75080c76")
+			(uuid "6adbced4-877f-4eae-9f55-9c7e3ba3c13f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -8922,8 +9098,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "81470c6f-6416-43ff-b563-ee99242ac895")
 		(at 281.29 138.875)
@@ -8989,7 +9176,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e065076c-be36-416f-8673-f04413d3663f")
+			(uuid "152f5abb-71bc-4b82-9393-0f28267f5cd0")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -8999,7 +9186,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4eccf0cc-7b1d-4453-a5d9-e6d029934f8a")
+			(uuid "b0547e45-a8d7-40e0-8b7e-543f86d0677c")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -9009,7 +9196,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6eae9446-699d-42af-ab3c-4e317985fb7f")
+			(uuid "c93700f9-ca54-4952-9169-5551e1df72e2")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -9019,7 +9206,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ed125fd2-0c6c-4788-b4e3-3aefd8ca33ab")
+			(uuid "97e2743c-7240-452f-9397-beb3f7ab7156")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -9029,7 +9216,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "311477e9-8d5c-4cad-83e8-6c75240161d4")
+			(uuid "efcc4e4e-436e-44ee-b9e7-250fe000b278")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -9039,7 +9226,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "91efa802-45e0-4e24-9ee5-68de8cd76bbf")
+			(uuid "a405ea1b-db1a-4dac-af50-ef46964fa259")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -9049,7 +9236,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d8cdf36b-2e6b-4d03-bc92-e42df8f86243")
+			(uuid "f35cd939-b0de-42f4-abcb-9fc951029b0c")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -9059,7 +9246,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "209a2d15-61d8-4be5-9421-c5487352c597")
+			(uuid "6efaa825-1c13-4b1a-84a3-b40df13f2764")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -9070,7 +9257,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "660983f1-96b7-4b73-9b40-1ac304e967c4")
+			(uuid "7bb51fe8-6e2a-44c3-82a2-4b13b4a70a72")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -9081,7 +9268,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "190309ca-8f12-4a48-a083-e5a7b2e1af85")
+			(uuid "253ebc14-8590-446f-8ffb-b07fc4ea7256")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -9092,7 +9279,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e8af83b6-0419-495e-a1e2-fe6b4343d54a")
+			(uuid "427abc9e-6d69-4089-aa6e-1024353bd5cf")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -9125,7 +9312,7 @@
 			(net 44 "Column 1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0d13dda8-392e-42de-81a3-f6bdb9bf6e0b")
+			(uuid "3002c272-5c81-4372-beba-e49fd9724885")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -9147,7 +9334,7 @@
 			(net 38 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "07d9e822-c9c0-405c-80e6-33424241214b")
+			(uuid "d369e9d6-d823-4694-84c6-683960d3c473")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -9159,6 +9346,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -9424,7 +9622,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "8e1ae2fe-ef7c-4e4f-b882-ae42904e2015")
 		(at 247.89 138.875)
@@ -9490,7 +9688,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f59cef43-56a8-45cd-a8c6-e8cfaef9c04b")
+			(uuid "b23ac93c-a442-4dd7-94b1-1f52721ea73c")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -9500,7 +9698,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a4829d49-40e1-42a2-abfc-ca08d6a8c605")
+			(uuid "c518d1fc-17fe-46a5-8477-feb8c04eac51")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -9510,7 +9708,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b4b6575e-31d4-4ab7-beb0-685bd54af0e0")
+			(uuid "373160c1-8ba2-44ae-85a2-1c2d997b69ec")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -9520,7 +9718,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "41bb4506-6327-46eb-81b7-0e945af33810")
+			(uuid "29af7a96-5539-4345-899b-1bb930978d54")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -9530,7 +9728,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "72c3f062-4c68-4191-af28-c7a4757583bf")
+			(uuid "ec94c028-1715-470f-8f00-f4c6e2b5f32b")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -9540,7 +9738,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e6f295d0-3895-4dc9-8223-7ddd7ad1030f")
+			(uuid "1c524852-1b23-43b2-bf48-667f6e137b3d")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -9550,7 +9748,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8c4cd876-7116-474a-9c65-d3a6c085a94d")
+			(uuid "4af8706f-353f-4039-ace4-0ad8d813de0a")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -9560,7 +9758,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4d857190-4c3d-4ef3-b923-bcbfc1806cd3")
+			(uuid "fbe24c1c-91e1-47ec-b326-bf3ff372fcdb")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -9571,7 +9769,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "f3e11d8d-e4d3-49e0-88b9-386346b6e066")
+			(uuid "7393fdfa-e650-4b2b-b436-909e0cf78656")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -9582,7 +9780,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "771523a2-bbd4-4fb5-b4d4-7ad661802976")
+			(uuid "7f0a3079-e7bd-421e-bc92-0daf16eeac56")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -9593,7 +9791,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "3f23ced7-8d17-472f-89b8-714b776fdad1")
+			(uuid "f17685d4-8ecf-4f98-89c2-c46c89c32f2c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -9626,7 +9824,7 @@
 			(net 44 "Column 1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "127babb8-8593-49ee-a624-5f4927cf59ff")
+			(uuid "a9ffb026-cf07-42f7-9b0f-632375f377c0")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -9648,7 +9846,7 @@
 			(net 24 "Net-(D20-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "91786f03-c788-41e7-96d3-856cb02a8290")
+			(uuid "9a9592b7-bcc7-4419-8782-2eaeface3a3b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -9660,6 +9858,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -9925,7 +10134,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "99ba9f1d-92a9-4fc9-bb74-f849484ec1da")
 		(at 231.19 154.425)
@@ -9991,7 +10200,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ed88ef17-98ad-42b9-9671-2267c4d3828f")
+			(uuid "feb0f6a3-112f-4be6-b4cb-d1dafcb11912")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -10001,7 +10210,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a71c12a0-8046-429b-a82c-c09c3695100f")
+			(uuid "26768d2a-c743-4ac9-a0fc-2c22b7ae72ea")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -10011,7 +10220,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4e36aaa1-c699-4372-94bb-aa289f3ba8a9")
+			(uuid "55a122c4-1556-4673-8d21-ee1e580a6d88")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -10021,7 +10230,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "042d99ec-981d-4cdc-b0bb-d9705b5f9985")
+			(uuid "1666ee42-1abb-4538-b705-da9ba01f3075")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -10031,7 +10240,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ca437a13-dab5-4b4d-9a97-7ce574148d15")
+			(uuid "3ce236e4-9996-4737-b6c0-1d5e529dec5b")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -10041,7 +10250,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c37d33f6-b5c3-4282-99ab-de3fe600b04d")
+			(uuid "0f9d0913-a259-4d8a-8c1d-6f5768e072ac")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -10051,7 +10260,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6de4cb4e-08e9-48d3-a4cc-2be026a8b856")
+			(uuid "549f5503-0fa0-45d4-968c-526e6eb3aa13")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -10061,7 +10270,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cf1aff8c-0306-45b7-86c6-cbc8caeb1119")
+			(uuid "a007516c-52c2-4b68-b303-acdb3ddb02b6")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -10072,7 +10281,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "6fec5f26-21c9-4eb1-92ba-74caec25e092")
+			(uuid "d0fa3837-79e4-48f4-8c08-c1e1f8bbff3f")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -10083,7 +10292,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "644f9ce2-5bd9-4d09-8bfc-b8d0bdfe4003")
+			(uuid "5b520ac2-089c-4138-bbeb-230d90d27471")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -10094,7 +10303,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c85c8a5a-d99a-4baa-b518-f618c092453f")
+			(uuid "2f1351a0-9e52-4e78-bb72-63a959e030fc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -10127,7 +10336,7 @@
 			(net 50 "unconnected-(S15-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "09f9c421-b5b7-4077-bdea-49739f9fa435")
+			(uuid "de34561f-d190-4489-baee-fd89c2abfcfe")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -10149,7 +10358,7 @@
 			(net 18 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "73f6213f-3b33-40f3-b363-1b03093eab3c")
+			(uuid "6352cc9e-211c-4313-a9d0-2d1d6c46e044")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -10161,6 +10370,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10426,7 +10646,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "9c9e7efa-3c4f-4e14-8499-78529aed8e3d")
 		(at 214.49 123.325)
@@ -10492,7 +10712,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ff3ed731-d8b2-4d75-8e01-abd1f7d2fb07")
+			(uuid "ba60d04b-4e19-42af-8806-933a6f8954cb")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -10502,7 +10722,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "bb97651c-3903-4a9a-97fe-21da2d1e1a1c")
+			(uuid "85392f20-c16c-40c0-8e83-d561a7fb2c54")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -10512,7 +10732,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b442020e-b2bc-440e-a9a4-5232e2b8fb81")
+			(uuid "81ebced6-ccb3-4a1f-832f-dd433fff196f")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -10522,7 +10742,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "da62fcdc-b054-4b55-a991-d2d5dc3b795f")
+			(uuid "d1768496-8bd8-410f-b8cf-7596f419e105")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -10532,7 +10752,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "959c62fb-e14a-4790-a999-28fa3c4449d3")
+			(uuid "f1032188-b112-4144-84a1-1678df91264f")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -10542,7 +10762,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2e5c4661-ebf2-4620-887b-80bf27a5d6d8")
+			(uuid "cab217f2-9430-4fbc-9ab8-a220e188d56b")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -10552,7 +10772,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d933f89f-daea-44ce-8ac7-3999368981ad")
+			(uuid "6e0ed065-0db4-490c-97bc-1ebd65f6bdab")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -10562,7 +10782,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e8726f75-de87-4046-a424-654429b00072")
+			(uuid "893122c7-6729-4b9a-85b8-c18ef2a7ca12")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -10573,7 +10793,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "2fba8536-a6c9-4930-95be-82ce180531c7")
+			(uuid "c8c35933-e4ba-44df-a071-de134cf26df2")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -10584,7 +10804,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "89297622-3797-4e27-9f20-909cfb6fa7b9")
+			(uuid "9d2f6faa-9d51-4ed0-a72c-115be197c7e2")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -10595,7 +10815,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a22407ba-2a77-40fa-bd62-a7b0f52df2ee")
+			(uuid "fdb546d6-dc1b-4a29-b4e6-e2070ab5003e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -10628,7 +10848,7 @@
 			(net 43 "Column 0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a16af91a-2c1c-4bed-80ec-5086f5f13720")
+			(uuid "db01cdd6-ca10-4588-9a70-e1a5ceb5dde0")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -10650,7 +10870,7 @@
 			(net 9 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d4fed961-1274-42eb-858d-798c6ac0c844")
+			(uuid "85d4c3ad-3afc-409e-93ce-245630539db2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -10662,6 +10882,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11451,7 +11682,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "a973aec6-3836-4eca-b60e-843389939c97")
 		(at 122.5 86)
@@ -11517,7 +11748,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "41f5bc81-bbea-4647-95c5-c58197c62dbd")
+			(uuid "ef34ba62-f15a-4671-a8eb-a092f2db0294")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -11527,7 +11758,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c0a6cde9-158d-439f-a433-92e945cbdbb5")
+			(uuid "70fd695a-0947-436d-a3d4-659ebe653669")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -11537,7 +11768,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cbe996f4-7f5d-4f12-92c6-48fe157960de")
+			(uuid "78d2e047-2766-47e7-926a-04e62b1fd694")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -11547,7 +11778,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "09732a21-1d74-478d-bd7a-256a8f6822a2")
+			(uuid "e1a5d56d-2f0e-4377-b34a-8a3e045c4853")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -11557,7 +11788,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7b06fc42-a77b-425d-a645-121e8188b3b2")
+			(uuid "a7e51413-ff5b-4a5c-b609-8f2a0388dac7")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -11567,7 +11798,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a5fff12a-c618-433b-a44d-2a195714c28f")
+			(uuid "cb11e5d1-2e7b-4c1a-a848-873ec48c040b")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -11577,7 +11808,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6703b2cd-2ae6-430d-b5e6-177efdba72f4")
+			(uuid "c8c81368-d629-4788-9c07-2096754bc6ef")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -11587,7 +11818,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0b71981e-58b2-438e-8e4b-fad98daeb73f")
+			(uuid "a68cfff3-a6ad-4b29-80a1-20e72ee17828")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -11598,7 +11829,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "3fe5ff74-24f7-4b05-a80d-f464a49fda52")
+			(uuid "fa9bf45b-316c-44aa-bba4-5095fb4caefe")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -11609,7 +11840,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "da311134-9126-4cb1-895e-c3de86e89a75")
+			(uuid "65c45c13-370c-4d4a-89e8-8d2debef43ee")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -11620,7 +11851,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "386a124d-d5fe-41f6-b0aa-40eeabebec9d")
+			(uuid "1a7ee26d-e4ec-4584-9ddc-ae061fd9615f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -11653,7 +11884,7 @@
 			(net 43 "Column 0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "1da2b1bb-ec1c-417b-a887-850b8da26e88")
+			(uuid "08d57696-7379-4b2f-9388-c1839f84d35a")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -11675,7 +11906,7 @@
 			(net 2 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "73fe5697-1a8d-40d7-861d-65fb1d7492c1")
+			(uuid "a78d1e09-1119-43d0-bc21-1682bd5e566c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -11687,6 +11918,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -11952,7 +12194,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "ae1b38c6-4049-4d85-9b40-a5d7b258d884")
 		(at 247.89 185.525)
@@ -12018,7 +12260,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "12779be9-a7d0-4e9e-905a-f1ea3d432e2e")
+			(uuid "8b79e924-faaa-4a0f-9770-b17064a7a8f2")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -12028,7 +12270,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6391dafe-9ea8-4f79-9c9c-3a7c7a1213b3")
+			(uuid "704df085-59e1-41da-8b87-ca490c3f08ec")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -12038,7 +12280,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6d467419-b052-48c3-9a74-09285024ac29")
+			(uuid "5670c9ed-1077-45c3-9bd5-bf62fb935338")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -12048,7 +12290,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "01cc8478-b4b9-4933-a061-4ff87cdce899")
+			(uuid "9c449685-fc7a-4569-b890-e726097ba963")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -12058,7 +12300,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8f84753d-ea58-40dc-a128-4464d44fc21e")
+			(uuid "1b2feeb4-d909-4d97-a0aa-504fb519ac51")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -12068,7 +12310,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "60fc1b34-8265-441c-aeab-94ba61d09220")
+			(uuid "590a67b3-19cb-4ae2-91a1-bb3b59618ffc")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -12078,7 +12320,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "95ee992e-9ca3-4650-8963-a95f00ced0c1")
+			(uuid "d8a93812-cfcc-4a86-b9c2-87058d4eceb5")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -12088,7 +12330,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "86f78ef1-df84-41c5-bf0e-01f407fac87a")
+			(uuid "3f5d6575-851c-4946-8bc0-370680588c59")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -12099,7 +12341,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "dfa5e770-3706-4869-b89e-1ef92c48e683")
+			(uuid "3696d79e-f466-4afb-b460-0860e817902b")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -12110,7 +12352,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b8d1ac2a-74ca-459e-b464-240d2dbacbce")
+			(uuid "f4ab5a73-de99-45ae-a246-2cf167f68eff")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -12121,7 +12363,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b0fd3d45-4ea7-4e41-9057-1c6d66c30aa1")
+			(uuid "b800763b-04c0-4d55-8393-93553f498c29")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -12154,7 +12396,7 @@
 			(net 47 "Column 4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ba3a9956-23a2-46d3-9a90-65d0332e6cc8")
+			(uuid "f3641b7c-0ff6-43f2-92e8-c9b0ab3b311e")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -12176,7 +12418,7 @@
 			(net 27 "Net-(D23-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c4a24a63-3ef6-4de9-a27d-950ac90ef05e")
+			(uuid "2673b6a6-bc6e-4c23-9461-d28745990ae9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -12188,6 +12430,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -12453,7 +12706,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "b5d599ad-fbb2-4129-a0df-1b0bbd7e2565")
 		(at 214.49 201.075)
@@ -12519,7 +12772,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3e257b35-c3bc-41fb-a923-f6951f94ae88")
+			(uuid "ae1f3707-d17d-413d-af4c-3314c5d58db9")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -12529,7 +12782,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "45ae3500-036b-499d-aee3-5ff625c71f05")
+			(uuid "1ec471b7-7ad9-4f43-9e1f-f85149c78726")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -12539,7 +12792,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2b6ff34b-35b2-4ff3-a14c-0e7a16b70b96")
+			(uuid "dbad7996-9f70-4835-b6e3-18edd04f7932")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -12549,7 +12802,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8b3b265c-cd11-4cdd-bad7-fe1115ae339a")
+			(uuid "4e60b96d-3881-4ae3-9d24-c238cac16e07")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -12559,7 +12812,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5f433e7c-6ac7-4a88-915e-0c8c851653e3")
+			(uuid "fce62fc8-d148-45e4-8bab-6f74f9a602c1")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -12569,7 +12822,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "69ccf880-52f4-4869-9892-c1485204acb0")
+			(uuid "c673a0b3-6cb8-459b-a89b-fcb769fbc92c")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -12579,7 +12832,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f7b03ce5-878f-4ae0-8871-f02a54e299e2")
+			(uuid "82979060-7fe7-44a6-b86d-45fd979744cd")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -12589,7 +12842,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "651809a8-75c0-4a0c-9bb6-7b562f154dbf")
+			(uuid "50dce1f8-e0c5-4bb3-9d20-83a9e5c69195")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -12600,7 +12853,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "19e5bed7-5693-411e-9f07-5bca256a6095")
+			(uuid "01bdd805-1125-472e-9ee4-06126eb8f316")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -12611,7 +12864,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "7e54f220-ca5a-4247-b05a-117dc06e65b7")
+			(uuid "8341f66c-81e1-4f0b-960d-8b776e936035")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -12622,7 +12875,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e4202934-cdd1-486f-b56d-15a6c44aa098")
+			(uuid "19b337ff-8a12-4a25-8d2b-566354bcf94d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -12655,7 +12908,7 @@
 			(net 48 "Column 5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6dc43d6d-3cc1-49f2-bc7b-e83570dd86ad")
+			(uuid "4536a7e6-0512-49aa-8a51-ef8fccbec3b1")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -12677,7 +12930,7 @@
 			(net 14 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "512e3428-25c2-4481-b0e2-12db1db72ae0")
+			(uuid "7f85fd6c-48fe-41cc-b9b9-94600c0ecc23")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -12691,8 +12944,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "b5e06b10-7d4a-4de7-afd2-2d89fb315082")
 		(at 247.89 201.075)
@@ -12758,7 +13022,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7da3fec2-84ad-4568-9a57-658d7fc303b8")
+			(uuid "03baab36-a403-42ba-b136-104ffd6f8aea")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -12768,7 +13032,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "190202c6-a150-4d63-aaaa-9326b568019a")
+			(uuid "fd5a4f1e-379e-4ff1-9d1d-615e13e8f286")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -12778,7 +13042,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b007a690-e942-4105-8b38-d59ccd9fd39e")
+			(uuid "b96efb07-8e59-491e-9600-232dafd2f5c3")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -12788,7 +13052,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ea01ea3d-1398-4e2a-8b54-acd62dd86d0b")
+			(uuid "de5c5ce2-71de-4a24-91cc-846f252352c4")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -12798,7 +13062,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1597685d-cc96-49ee-95aa-352915ca6b56")
+			(uuid "dfb77a2e-e4a8-4d32-b5c6-2c2f10561b8a")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -12808,7 +13072,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f5c90ef1-3175-4ed1-a27b-2a5d7e72b5cb")
+			(uuid "c0e8a587-baa6-4c9a-866e-4d9dbe39c393")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -12818,7 +13082,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "478066d6-8431-4d78-bacd-76dfe7dc2633")
+			(uuid "e6cc3f64-2b74-48f5-85de-09544f1d5bcb")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -12828,7 +13092,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1b022ae2-e71a-4371-b00c-20ac69c24952")
+			(uuid "87f35a23-b0f1-46e4-b76c-41acdec74d2b")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -12839,7 +13103,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "8f48b718-35ee-48ea-acfc-656d31c7667f")
+			(uuid "e9d32857-b47f-4628-a80c-13cb5f0cb631")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -12850,7 +13114,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d82f8421-16e2-4f1b-9f33-82744eeddded")
+			(uuid "043e22a6-30c8-44f5-b812-37181b943296")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -12861,7 +13125,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "983900ca-c236-49f5-b0a7-ac96d9a9ed22")
+			(uuid "fa4d3f9d-c73f-4b11-aa29-46dab493c0dc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -12894,7 +13158,7 @@
 			(net 48 "Column 5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3a315fc8-b922-4745-88fb-e4d82767c3d8")
+			(uuid "b84ba3ec-8bba-496e-8a3a-9a8e7eb0ff7a")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -12916,7 +13180,7 @@
 			(net 28 "Net-(D24-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "59d74311-1f3a-4219-a122-0b6b2f3458ea")
+			(uuid "658dde90-e9d6-4e67-bf5a-ec3ca5fa5d86")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -12928,6 +13192,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -13455,7 +13730,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "cd7bdf51-9b55-4941-a490-daee0fabd2c1")
 		(at 214.49 154.425)
@@ -13521,7 +13796,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "64e6e9d4-3646-438e-a938-edd9cb47eccf")
+			(uuid "00cce47a-2435-4bcb-9455-d11c1ef09e28")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -13531,7 +13806,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b3759a6f-9e74-433d-ad9a-e9e61c2d5f42")
+			(uuid "d263ed7b-ab1e-4746-a671-15c1a84f314b")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -13541,7 +13816,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "13470372-a903-41d8-8c52-f7e31054d6e5")
+			(uuid "7f6c9289-ebdc-4ab1-8872-91a0c847db73")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -13551,7 +13826,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b8428564-3ae5-4421-99a8-46ad79d7ca97")
+			(uuid "57c5f9c9-5990-4837-bbb5-dc6c1ff9ac6a")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -13561,7 +13836,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9144d2a1-4d1b-496e-908b-3a7d5eb5ff6e")
+			(uuid "15bb2ca3-1661-46dc-a227-796e1a6f15a0")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -13571,7 +13846,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d9662ac9-b5b8-4a43-a6a7-565510444a87")
+			(uuid "dd47b082-7b53-42f5-b630-734be8ba2cf3")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -13581,7 +13856,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2852cb80-e03e-40c0-870a-5aecc4cbb667")
+			(uuid "02f10917-7a16-4f07-981f-9b26fa65eed3")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -13591,7 +13866,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3a8efd54-e1ec-41ac-9442-ebc5d0dbcde2")
+			(uuid "21ddec5b-542a-44df-b081-50045d7f4f8c")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -13602,7 +13877,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "43c7deea-04cc-4267-b704-0cfba9b6a982")
+			(uuid "ed0d997b-cb1c-4b57-8372-41824ecf1220")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -13613,7 +13888,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "86c5f603-8bab-45e0-ab34-5941585ae582")
+			(uuid "86141f1b-18ee-40a1-8325-c5367a73456e")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -13624,7 +13899,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "843b5789-3566-41a8-a40c-2f9da08edc8d")
+			(uuid "bb5b19c9-0866-487b-ba4b-1c588a8eb020")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -13657,7 +13932,7 @@
 			(net 49 "unconnected-(S9-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "45caa6c2-9173-443f-8c7c-931eabc1e1d0")
+			(uuid "64e59b99-fb12-4b78-9aab-5370539623c4")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -13679,7 +13954,7 @@
 			(net 11 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3d4f87e6-f2f6-419c-8d21-423edbbac3e6")
+			(uuid "76ad5df3-d7cf-4b09-9bc7-f43f4b7c4b50")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -13693,8 +13968,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "cdd54394-ba39-46ff-99ff-681cf05bf249")
 		(at 214.49 185.525)
@@ -13760,7 +14046,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f2e2bc2b-3c65-4fc4-8b23-fed655c566fc")
+			(uuid "03848bd9-1e18-4cb0-8552-0ac755f53019")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -13770,7 +14056,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8731a965-41b2-4366-be81-3937da9a4518")
+			(uuid "0e67ce68-5a6a-4b8b-b3a7-057bd517a68d")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -13780,7 +14066,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "043aa761-431a-4050-b03d-fb913632ec35")
+			(uuid "4a9f9204-d83a-413d-8503-e880991de72a")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -13790,7 +14076,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ccf9d0b9-4c67-4d70-90f8-96e4ad2f619c")
+			(uuid "5226da6b-37fa-48c9-9a1f-cfc74a06e3a5")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -13800,7 +14086,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9c016289-72b7-4acb-9ba0-1a118ef4e8dc")
+			(uuid "dba19930-25d4-480d-b02f-d4aab6aa4bb5")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -13810,7 +14096,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a0d3327a-b7a3-41b6-b04a-e1b8a50cb3e3")
+			(uuid "d21e2890-1c7b-49e5-b3cf-d0470a876abf")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -13820,7 +14106,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "72edd49d-a2c9-4580-9b74-92aa0eb2299d")
+			(uuid "55c61d83-33dd-4553-9f70-9d128f933330")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -13830,7 +14116,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b79d0b22-432a-4ae5-9e86-7a383bac7c0c")
+			(uuid "6692073f-ffd9-4180-b1a7-baf332496e1c")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -13841,7 +14127,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "5242c0b5-d467-4c80-8cdd-7481eea44923")
+			(uuid "50e10c76-8ef9-48b0-a581-ff887b0d2b35")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -13852,7 +14138,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f0b1e148-7ecc-4589-aa1e-ebb2a21d1ea0")
+			(uuid "230561d2-957e-46cd-ac9d-47332a493c20")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -13863,7 +14149,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "589d32f0-0714-4f11-8147-8982abb9c09a")
+			(uuid "fade88b4-6d28-4c97-818e-e5174ba83945")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -13896,7 +14182,7 @@
 			(net 47 "Column 4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "1bfdfd9b-057e-4054-ba68-9b740978e540")
+			(uuid "0058a615-1d78-4f81-a329-6961003f097a")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -13918,7 +14204,7 @@
 			(net 13 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "140b52e7-ad4c-4707-b0c3-47a659ed6949")
+			(uuid "869c70db-87a1-4411-b6b7-ce977729c51e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -13932,8 +14218,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "cf21c2c5-ae02-4beb-bfd9-a7a570b6ba21")
 		(at 214.49 169.975)
@@ -13999,7 +14296,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fe6ee3dc-63b7-47d3-9d36-cd2f29693d4d")
+			(uuid "7d464e20-6bd6-40ba-b370-738cc3c70b45")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -14009,7 +14306,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "745d6682-3ac1-4ec6-88e1-f4a95d6efc59")
+			(uuid "efe8934b-4763-43a1-8604-97d1be834453")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -14019,7 +14316,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "09afd2cc-152d-498b-903d-7487d11e5820")
+			(uuid "42cd213c-4c90-4f45-995e-898980482a64")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -14029,7 +14326,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "13d41497-162d-45f3-bfe6-f8eec61162ac")
+			(uuid "19817513-c365-4126-b498-22a53d1c2dba")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -14039,7 +14336,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f1a68834-461f-4aa8-b275-06f6ed74ac7e")
+			(uuid "45b691ac-d1a3-475b-80cc-43c78e5a7bf8")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -14049,7 +14346,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "89cb453a-0ad3-4e9d-aa2e-b32fd95be067")
+			(uuid "e94a5fcc-933e-4508-b52d-ed30d5cd024e")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -14059,7 +14356,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1b07039d-f3d1-493c-9c8b-232442fde0b1")
+			(uuid "2828ea72-5d82-4938-8413-0ece47f6b91f")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -14069,7 +14366,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4b63c385-f40a-4e29-948a-db99960f0487")
+			(uuid "c6219777-cb6a-4f9e-ac68-4a1805cb21fa")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -14080,7 +14377,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "c68144a1-7f80-4536-aee2-9c9ccb5e3047")
+			(uuid "2c94aaeb-6bcc-47c4-af3d-16cffbc691c3")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -14091,7 +14388,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "3e92e703-81a6-459e-a44b-dc24ac329613")
+			(uuid "0b79be23-3e68-4a02-9682-dc2ab7944763")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -14102,7 +14399,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "4f009288-8d95-4c1a-98e3-ee68f9f6ecd1")
+			(uuid "00978d3a-e2fa-4eb2-bc98-1dee38688ca6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -14135,7 +14432,7 @@
 			(net 46 "Column 3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "59d6485c-698f-4a56-b042-c460b120771a")
+			(uuid "7224ef14-b83a-44e6-9f13-6e852beedb18")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -14157,7 +14454,7 @@
 			(net 12 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "cf53f8db-8869-4b28-9a84-02c1e30f8202")
+			(uuid "20980939-0b87-4d2a-a9fd-d6c0491f7147")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -14171,8 +14468,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "d00b229a-e9e3-4066-89c7-c951bffe0251")
 		(at 182.5 86)
@@ -14238,7 +14546,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a820909e-51d8-4f8e-a3a2-c56de027b0d8")
+			(uuid "8ab383cc-a5b7-4514-8c8f-91ecf388acde")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -14248,7 +14556,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7309081a-544b-43c3-8011-a0c6ea8278cb")
+			(uuid "a422be18-2ed5-4797-b27b-64c0dd75dcf6")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -14258,7 +14566,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "df798b9a-8996-4fac-879c-10af5556da03")
+			(uuid "29ac7815-5da0-497d-b5cb-f63faad08c7f")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -14268,7 +14576,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "592ee388-1c5a-48fd-bb40-56d52fa4c208")
+			(uuid "6d6dccca-e013-4eed-886c-3d835e082da6")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -14278,7 +14586,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b59d2a59-c831-42ab-950e-3e84a14c8595")
+			(uuid "34129804-2ff5-4359-8254-0d0496cdc6a8")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -14288,7 +14596,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "38e1505b-0358-498e-82f2-5caae494f31a")
+			(uuid "86d8c93a-4aca-46c0-9f16-9f8469f4e6d7")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -14298,7 +14606,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d6891a06-6a59-4bae-acf5-86a839f71c39")
+			(uuid "07137ca6-b082-4d3c-9ad7-0f173d5e5ef6")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -14308,7 +14616,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "eb0b77e7-77ba-48eb-9ce0-e91dc4253db4")
+			(uuid "c1f35724-5f61-45ff-bcfa-b2cb272d4cd2")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -14319,7 +14627,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "e1d58ed4-722c-4b17-b7f1-d06b8edd776d")
+			(uuid "70cb5810-8e8a-4590-b795-16d5905616ee")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -14330,7 +14638,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "af0264b9-69c0-48a5-b6c7-41a25175db2d")
+			(uuid "4d166f5b-b330-44fc-aa00-bf9ddf90ddbe")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -14341,7 +14649,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c62902a7-ca95-4c98-b4dc-ed462ce9291e")
+			(uuid "98e7ecd8-9654-4fb4-a3d4-528b5f1d353f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -14374,7 +14682,7 @@
 			(net 46 "Column 3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "282998c9-711e-4d14-99f7-7adf8d86f0ce")
+			(uuid "d45cc844-1369-4597-ace0-646932071318")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -14396,7 +14704,7 @@
 			(net 5 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "2a3252fb-14a5-4835-854b-90c8fe550ae3")
+			(uuid "abcd1216-7e1b-41bd-9d09-8ea42b7d3c33")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -14408,6 +14716,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -14935,7 +15254,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "d523b1fd-4312-4fa9-a9c4-14953882d439")
 		(at 264.59 138.875)
@@ -15001,7 +15320,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b3525b6c-107a-4734-b6c8-61804ef638f8")
+			(uuid "a760e73d-2a76-4442-8489-842ed274b469")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -15011,7 +15330,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0857ec29-3169-4f2b-b463-20e57102f4f5")
+			(uuid "0d098b87-ac7e-454f-9dff-6f57e6194fab")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -15021,7 +15340,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "99af1ca9-d25f-4cb9-8756-eaa620797265")
+			(uuid "b2a1d648-196e-4405-bd7d-bc851e904ed0")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -15031,7 +15350,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "65ad5b44-b7a0-4200-9e8f-bca6bc1d51f4")
+			(uuid "ba077b7f-2f15-4e0c-a4ea-6482e6d3b284")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -15041,7 +15360,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5fb4048d-e580-401f-8f0b-8a54020a51a2")
+			(uuid "9b43d99c-04fb-4341-a38d-a9575787e6c8")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -15051,7 +15370,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "120df707-b000-49fe-a7e6-10f772a90ef8")
+			(uuid "be30932b-3467-4a01-a9fe-b9a5cb5dba53")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -15061,7 +15380,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "12d90804-a965-4543-a0c1-44136610b2ab")
+			(uuid "2bed3f9e-f5be-4ac7-8bb7-4c3dc64ad5bd")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -15071,7 +15390,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a600a578-352f-4087-957a-6bf7c63183a4")
+			(uuid "e7a48cee-6006-4425-bc31-85964d36ae82")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -15082,7 +15401,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "6f07e650-e158-4184-a3b4-a4b4a6b53e3e")
+			(uuid "e75328b2-aa75-4f6e-8562-88215945212a")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -15093,7 +15412,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "290fd5e5-9273-424f-a24f-93217af666ef")
+			(uuid "463d2596-d4b5-42b3-b08d-c5729fc65c3c")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -15104,7 +15423,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "ff1dbdae-61bd-4d41-aa7a-80f2d634eedd")
+			(uuid "d812acad-ef84-4e62-8ac8-16478eda2c55")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -15137,7 +15456,7 @@
 			(net 44 "Column 1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "be208817-ddce-452d-b724-cd30edcd694e")
+			(uuid "e390935e-fb7b-4ef0-8104-7f93f8092734")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -15159,7 +15478,7 @@
 			(net 31 "Net-(D26-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6a3e27c7-081e-4d97-9c5f-094285db4356")
+			(uuid "44edf315-ef30-4142-8d75-181ae8c8857e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -15171,6 +15490,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -15698,7 +16028,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "e3afb3df-721e-4d10-b2b2-1088cd98aaf0")
 		(at 247.89 169.975)
@@ -15764,7 +16094,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f41b318e-2531-4f50-9ce0-f8c3f66dba02")
+			(uuid "ed6a2693-b12b-47b5-a11a-8fa5064f0597")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -15774,7 +16104,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9ff44c5d-4fd7-4b69-bbc2-e10b199af8c2")
+			(uuid "cb6c4bf4-4aba-4d70-bd41-238643ec85b8")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -15784,7 +16114,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "460daec3-9c0a-486b-837a-a66d7f47220b")
+			(uuid "e1ba4cc6-73ae-4e0e-b668-aef731b38342")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -15794,7 +16124,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "946d5ec3-5376-4f3e-96b5-9a581ddf240a")
+			(uuid "95ea75d7-4acc-4680-b22f-4a8c10bf46f8")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -15804,7 +16134,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fbc7e934-2187-4d64-a689-9b9f7fccb9bc")
+			(uuid "271b7652-235f-4bf9-aaaf-caa237d8c743")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -15814,7 +16144,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cdfcd9b7-1c00-4351-8c43-b00d019cbbfb")
+			(uuid "8db9b9bb-ff59-4d4b-b9e6-ed3e1bd7e9b3")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -15824,7 +16154,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "bcd196be-ec23-4e06-8351-4b59ac02300d")
+			(uuid "26dcb17c-5adb-4b9a-8c23-089c66dff24f")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -15834,7 +16164,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5dccc37b-234b-4048-a1e1-bcd44b49474b")
+			(uuid "8513edf4-f53e-43ad-903a-4ed74b8efd0a")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -15845,7 +16175,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "a6bd41fa-2e52-495b-9d3a-1fb155b7d32a")
+			(uuid "3cb2d7e1-50b5-4dac-a7dc-b7ac57354782")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -15856,7 +16186,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "6a7e223f-a2df-4233-a776-5e8c4ca62f6c")
+			(uuid "b944f044-2f2e-4f0d-af3c-7641c2d520d2")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -15867,7 +16197,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "710da3b0-b893-4568-9a53-860b607b870e")
+			(uuid "df785c9f-2dc4-4c3a-801b-89535c5d3563")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -15900,7 +16230,7 @@
 			(net 46 "Column 3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7e01fcc3-b232-493d-b77b-c85d49fd1ab9")
+			(uuid "45027b87-2af5-4f6b-bce5-6a38a7266b9e")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -15922,7 +16252,7 @@
 			(net 26 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "78088cf4-6d3d-4ee7-af38-f297b30624ad")
+			(uuid "a6526214-f349-473d-bb3a-7f6f37afac3b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -15934,6 +16264,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -16199,7 +16540,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "f05c66bb-f095-4a35-bc65-cb8397cea872")
 		(at 281.29 169.975)
@@ -16265,7 +16606,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ec7ee729-202e-47ca-95ac-58286fdfaa49")
+			(uuid "cced390a-dec1-4a47-98e7-c4214b9521a0")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -16275,7 +16616,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "072d6ff6-4b2c-4f6d-a57d-18f7e2d475d7")
+			(uuid "670f1779-61d3-4601-8df4-9839f19c28e9")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -16285,7 +16626,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e79a1182-cf91-4dec-8b86-bc1811605a97")
+			(uuid "a796d1fc-8f26-4b99-8ba1-3eee58205f98")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -16295,7 +16636,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "bf1895cb-a6c6-44b5-8421-6325346e790d")
+			(uuid "992c6272-5444-4e84-b6c4-2e3b76e5c5d7")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -16305,7 +16646,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "460a19b9-a97a-4327-a0ed-8cf2b877d4ac")
+			(uuid "0162bb37-e68b-4d23-a15e-38fbbc30f905")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -16315,7 +16656,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "560db562-c40c-475b-acf3-3c3540bfa92c")
+			(uuid "8186d221-a85c-4a53-b3e5-df4ae77c0a2e")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -16325,7 +16666,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "dddb2979-d970-475c-b96a-d0b5af2f002e")
+			(uuid "2252284f-4254-44b8-8069-7ae44748a4d5")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -16335,7 +16676,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e630736a-f792-4811-94ff-b0117ef593ce")
+			(uuid "254ac4d9-8de6-4d19-966f-3e915089457e")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -16346,7 +16687,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "91d91030-6e80-4a1a-b898-8b33679752da")
+			(uuid "abd7f65d-c1fe-4426-979d-1a09a957f8a4")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -16357,7 +16698,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "7bd785eb-2e8d-492b-851d-91d11488e06a")
+			(uuid "b5fa39bc-9e36-49f5-bd16-5f0adb9fd973")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -16368,7 +16709,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "dda3cd2a-2719-4c4d-9e24-002ada10cc04")
+			(uuid "7a2e1673-36a2-45a3-8b8e-e7d3840597b4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -16401,7 +16742,7 @@
 			(net 46 "Column 3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "56dfaeb7-ffb4-4170-ac1d-a59dccbe6a4c")
+			(uuid "fd000a9e-bced-4229-b66e-ad6c998666f0")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -16423,7 +16764,7 @@
 			(net 40 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "dc75085f-0cad-46e6-b589-4f58e8e014fc")
+			(uuid "7e52603d-a601-4b73-afc0-a7f47d77878e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -16437,8 +16778,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "f0ab66b0-7fff-45ec-bd4d-27aad69f4ee3")
 		(at 231.19 123.325)
@@ -16504,7 +16856,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f960ab64-d28e-42a2-b18e-83067d083ae2")
+			(uuid "13352f90-6e45-445c-85f9-c4acca921691")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -16514,7 +16866,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5b606a29-b49b-481a-ba2d-fcc214712d30")
+			(uuid "05c3615d-afa6-449b-b022-e5c649c72d62")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -16524,7 +16876,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4851cfe9-81fd-482b-b5f3-1334e0d67073")
+			(uuid "c17c853d-ad89-4b0f-8e9a-32ac6b9e5050")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -16534,7 +16886,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f2cf06f0-50be-429e-b3b7-0860f03a3c5f")
+			(uuid "b1ee0190-7ed6-4d57-8b96-c3df9520308c")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -16544,7 +16896,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "45d7e53a-503f-404a-9d2c-792e4af711f2")
+			(uuid "73f97785-5a2f-47ce-b826-15f3d86f7bad")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -16554,7 +16906,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0a63da99-0061-4cce-9735-c32c8ecae865")
+			(uuid "6cf05809-b331-4719-82db-60c704e2f515")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -16564,7 +16916,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5a2c0521-ab61-466b-a027-d8c1eb53237a")
+			(uuid "ee09789d-b185-4ec6-b5cd-32dd065f0491")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -16574,7 +16926,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d1b608f9-b714-4ddb-9b5a-d67c076cf1ed")
+			(uuid "af0290f3-048a-47a4-a6f8-bdef2bba0192")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -16585,7 +16937,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "dddccf16-a49a-4213-853e-c19db9bab3d2")
+			(uuid "cbf63145-394a-4dad-bbdd-8a008991f8a8")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -16596,7 +16948,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "fddc3054-8c16-4e83-90f4-01308f8a7f1d")
+			(uuid "3e41ed71-f5a0-4602-af08-8e326a8135df")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -16607,7 +16959,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "328eb776-f991-4362-ab46-f08ff676ddcf")
+			(uuid "e3ecde7a-89d0-4031-9bda-383eb81f361b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -16640,7 +16992,7 @@
 			(net 43 "Column 0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8b82f3a2-c83d-4f82-ae5b-472ab22c00c4")
+			(uuid "1ec7ea2d-d428-405a-a9e6-67beecbd3fb2")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -16662,7 +17014,7 @@
 			(net 16 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4a68f8e3-40d0-429b-b422-331228e93114")
+			(uuid "7935fa2e-b887-4d04-a9a3-93cf7d582cc3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -16676,8 +17028,19 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "f0f0a34e-e0c1-46bb-9827-a93354eefb05")
 		(at 231.19 201.075)
@@ -16743,7 +17106,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9e2d6403-165b-4759-83b9-519f5a57a295")
+			(uuid "17fd27b6-3966-4bf5-aa85-d59183357be4")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -16753,7 +17116,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0ae85c8f-9262-4812-82a8-1235c7671a0a")
+			(uuid "43fdfb0e-0cb3-4012-8da0-bc7a0c6c8234")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -16763,7 +17126,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5f3212b2-9abb-44e0-a3e3-0f50e74803f8")
+			(uuid "2e30ffbe-1bb8-4983-bc7e-1a40c8c7cb6f")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -16773,7 +17136,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5b57ce60-64cf-4a8b-b241-0a9c5e99bc4a")
+			(uuid "2a03e8ac-84c1-44bd-8cc3-626b8e51cde3")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -16783,7 +17146,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "eaba959b-a192-4422-b198-c850418daa5a")
+			(uuid "158de143-bf9e-4884-82af-2862622e963c")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -16793,7 +17156,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "eea39cda-7e05-4e7a-bb1a-c76b5da06564")
+			(uuid "58b6bf48-7c95-46e3-a774-ae6df21815bf")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -16803,7 +17166,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "aa981391-5e64-4418-b375-46b1038fc77d")
+			(uuid "1fb0c6e8-4749-485a-9c03-7d6a384cc8fb")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -16813,7 +17176,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fca60def-b8a9-48ed-b376-cd26431a0ced")
+			(uuid "5946721e-e0f4-474e-b0a4-ced06b155436")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -16824,7 +17187,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "85a0406e-f401-4a3d-b5d3-5eb5cef60d6d")
+			(uuid "8c865700-e67c-470d-8e64-ff130bb24395")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -16835,7 +17198,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "96fed4cb-6613-4adf-8219-993ca463d551")
+			(uuid "73bf88a3-a3af-460c-9823-ccdbd11090e0")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -16846,7 +17209,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "62b7c2e8-7104-461f-ad3c-134942467ddc")
+			(uuid "daf285b0-a453-48a7-a3ad-58e2c78c82f7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -16879,7 +17242,7 @@
 			(net 48 "Column 5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "419092e0-87eb-4bf1-9ea4-6094e499cba1")
+			(uuid "02d795fd-3752-48cd-bce7-5b216472f2eb")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -16901,7 +17264,7 @@
 			(net 21 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "bc86b005-5fb2-4c53-96a1-f01996369a0b")
+			(uuid "bc9f6398-f2dd-4396-a7a3-fa8d69f3e6a5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -16913,6 +17276,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -17178,7 +17552,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "f5e64494-9650-44c0-ace1-6f79c055ef36")
 		(at 281.29 123.325)
@@ -17244,7 +17618,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e606fe49-5324-47e9-a739-2a3e6cf4de8b")
+			(uuid "48ce4d7f-344e-40cd-81ea-814d04d6b16f")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -17254,7 +17628,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "bf794e8a-a930-4c98-bb30-bbdd5eeac680")
+			(uuid "c2878792-d16e-4ac5-8566-d5bbca35774c")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -17264,7 +17638,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1a329b6a-4fd5-42ab-a485-5a0af9eb0ef8")
+			(uuid "5947182f-1f0d-4e4d-b6e0-6b6b99dd7401")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -17274,7 +17648,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7f6a1630-8e1c-4f32-8683-aa156d23c420")
+			(uuid "de07944f-c983-4f54-9183-98e3d4c6d9fe")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -17284,7 +17658,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c97bfb70-c905-4c99-88ff-89a1d017b82e")
+			(uuid "94bd9269-e083-423a-8819-ce69b197c5a5")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -17294,7 +17668,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6a995c68-671e-4efd-a33e-9d97693938ac")
+			(uuid "1d57d07f-35ee-4c45-a1d4-3602f956005b")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -17304,7 +17678,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "964995d1-14d2-4b70-b4ec-e2eec3425f00")
+			(uuid "f61ac2b8-71c7-4be3-bb53-90674e4c46e1")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -17314,7 +17688,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "655fa08a-97f7-46af-8cb6-84affbd42072")
+			(uuid "6e365585-6d27-4564-8f8d-0b31963dc4c4")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -17325,7 +17699,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "9201aaa1-93dd-4f8d-a116-dd5e3e2fce37")
+			(uuid "e7e48a30-f62d-433f-8317-1f80983c7028")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -17336,7 +17710,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "195b4bd8-fa7f-408e-94b8-40c387674b80")
+			(uuid "4a0d5511-7203-4b4d-a3e9-7a74bd19c0f8")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -17347,7 +17721,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0e0e4a78-b2de-414c-b082-905fc1d3aec4")
+			(uuid "67743026-e8fb-4f7f-9259-8c12d6aafd13")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -17380,7 +17754,7 @@
 			(net 43 "Column 0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "162dce98-6f1a-4290-b48c-aef89e4e4edf")
+			(uuid "f032926f-70cc-4c31-859a-ebdbb14c5e02")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -17402,7 +17776,7 @@
 			(net 36 "Net-(D31-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1f7adfd6-19c8-4f1b-a7b9-276ae3cc0476")
+			(uuid "2f912d2e-b4f8-48d4-8192-06f295e08c74")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -17414,6 +17788,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -17679,7 +18064,7 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_THT:SW_PUSH-12mm"
+	(footprint "SW_PUSH-WITHCAP-12mm:SW_PUSH-WITHCAP-12mm"
 		(layer "F.Cu")
 		(uuid "fc3eafa6-f16d-4207-805f-71b538814338")
 		(at 281.29 201.075)
@@ -17745,7 +18130,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ec25e6f8-9066-4178-8e6d-cdf28d366892")
+			(uuid "94e69a9c-f20c-4dc7-b0e7-22575d3a46f4")
 		)
 		(fp_line
 			(start 0.14 -3.61)
@@ -17755,7 +18140,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "90389684-161d-442b-8f76-f99a759eccda")
+			(uuid "45533c12-d338-493c-b1be-314b9b43f8ee")
 		)
 		(fp_line
 			(start 0.14 1.2)
@@ -17765,7 +18150,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2722fa7a-97c9-4eac-81ce-63e38f69e89c")
+			(uuid "7586f89d-6d61-437c-9f39-05556cef4db6")
 		)
 		(fp_line
 			(start 0.14 6.1)
@@ -17775,7 +18160,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c44e32ce-0abe-4269-8b0c-5008c03b75b5")
+			(uuid "8b80f402-fb90-4ac1-9d55-cee42af3f930")
 		)
 		(fp_line
 			(start 12.36 -3.61)
@@ -17785,7 +18170,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "45e184c1-f344-4ef7-9f71-fee64a6954e6")
+			(uuid "0e12a251-b0c7-4ac2-bb78-b877c76305c6")
 		)
 		(fp_line
 			(start 12.36 1.2)
@@ -17795,7 +18180,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "88ce4565-92ef-4e41-9c6c-1c4eadba4a37")
+			(uuid "47b4e4b8-ae4d-4b0c-a91d-061b22d09d47")
 		)
 		(fp_line
 			(start 12.36 6.1)
@@ -17805,7 +18190,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f97ce32f-307b-47fb-87f1-a6c9103f0a0f")
+			(uuid "cfd06205-7ae7-488b-be9d-da8729573bf3")
 		)
 		(fp_line
 			(start 12.36 8.61)
@@ -17815,7 +18200,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fa443f78-1512-4ff9-951a-294002e03c81")
+			(uuid "9b365b2d-e567-42c8-bb9a-98987581a537")
 		)
 		(fp_circle
 			(center 6.25 2.5)
@@ -17826,7 +18211,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "0dc46b79-4755-4084-990c-7a33e7485426")
+			(uuid "903bbeb8-be52-43fe-86df-8eae9836dbac")
 		)
 		(fp_rect
 			(start -1.5 -4.75)
@@ -17837,7 +18222,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "6061d4b6-c730-49d6-bb7b-69026b303811")
+			(uuid "661bd547-3e62-4d45-9adf-c37277351095")
 		)
 		(fp_rect
 			(start 0.25 -3.5)
@@ -17848,7 +18233,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "80146a7d-173f-4515-b7ca-78847e2e8ca7")
+			(uuid "554e6c4f-3348-4bfd-a86a-4a4329b9dd57")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.25 2.5 0)
@@ -17881,7 +18266,7 @@
 			(net 48 "Column 5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "dfb6a750-9858-40a3-8ee6-c93226caa109")
+			(uuid "f3897ab6-4e1c-4cbc-8240-83ab23620e91")
 		)
 		(pad "2" thru_hole oval
 			(at 0 5)
@@ -17903,7 +18288,7 @@
 			(net 42 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6676c692-d8bc-40ec-b196-d6067ab11212")
+			(uuid "af331b98-46b2-4eab-ad21-d46cae5f5ff5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl"
@@ -17915,6 +18300,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/Arduino/PCB/12mm-push-button-and-cap-1.snapshot.1/12mm Push Button with Cap.STEP"
+			(offset
+				(xyz 6.25 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
